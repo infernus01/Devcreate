@@ -8,7 +8,6 @@
 }
 
 #contact {
-  /* background-color: #6a9ac4; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,32 +23,19 @@
 .contact-links, .contact-form-wrapper {
   width: 50%;
   padding: 8% 5% 10% 5%;
-  /* margin: 8% 5% 10% 5%; */
 }
 .link a{
     color: #6D560E;
-    /* font-size: 12rem; */
+}
+.link a{
+    color: #6D560E;
+   
 }
 
 
 .contact-links {
-  /* background-color: #1f2e43; */
-  background-image: url("../../public/Images/AD-4.jpg");
+  background-image: url(./image.jpg);
   background-size: cover;
-  /* background: */
-    /* radial-gradient(
-      circle at 55% 92%, #426691 0 12%, transparent 12.2%
-    ), 
-    radial-gradient(
-      circle at 94% 72%, #426691 0 10%, transparent 10.2%
-    ), 
-    radial-gradient(
-      circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%
-    ), 
-    radial-gradient(
-      circle at 0% 0%, #263a53 0 40%, transparent 40.2%
-    ), 
-    #1f2e43; */
   border-radius: 10px 0 0 10px;
 }
 
