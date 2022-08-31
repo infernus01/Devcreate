@@ -1,10 +1,15 @@
 import React from 'react'
 import './Contact.css'
+
 import Footer from './Footer'
+
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+
+import Faq from './Faq';
+
 const Contact = () => {
   return (
     <>
@@ -48,7 +53,11 @@ const Contact = () => {
     </div>
   </div>
 </section>
+
+<Faq/>
+
 <Footer/>
+
     </>
   )
 }
