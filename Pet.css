@@ -1,0 +1,43 @@
+.pet-container {
+    width: 100%;
+    border: 1px solid green;
+}
+
+.pet-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    /* padding: 20px 0; */
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.pet-col {
+    width: 50%;
+}
+
+.pet-col img {
+    width: 100%;
+    height: 100%;
+}
+
+.pet-col2 {
+    padding:  40px 40px;
+    /* text-align: left !important; */
+}
+
+.pet-col h4 {
+    text-align: center !important;
+}
+
+.pet-col2 p {
+    text-align: left !important;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pet-span {
+    font-style: italic;
+    font-weight: bold;
+}
